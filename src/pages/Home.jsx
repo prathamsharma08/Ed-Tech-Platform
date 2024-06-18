@@ -5,6 +5,8 @@ import HighlightText from '../components/core/HomePage/HighlightText'
 import CTAButton from "../components/core/HomePage/Button"
 import Banner from "../assets/Images/banner.mp4"
 import CodeBlocks from "../components/core/HomePage/CodeBlocks"
+import LearningLanguageSection from '../components/core/HomePage/LearningLanguageSection'
+import TimelineSection from '../components/core/HomePage/TimelineSection'
 const Home = () => {
   return (
     <div>
@@ -134,9 +136,9 @@ const Home = () => {
         </CTAButton>
       </div>
       </div>
-    
+   
       </div>
-      <TimelineSection/>
+       <TimelineSection/>
       <LearningLanguageSection/>
       {/* section 3 */}
       {/* section 4 */}
