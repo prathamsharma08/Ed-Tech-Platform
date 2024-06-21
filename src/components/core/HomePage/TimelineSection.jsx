@@ -84,9 +84,9 @@ const TimeLine = [
 
 
 const TimelineSection = () => {
-  return (
+    return (
     <div>
-      <div className="flex flex-row items-center lg:flex-row gap-20 mb-20  ">
+      <div className="flex flex-col lg:flex-row gap-20 mb-20 items-center">
         <div className="lg:w-[45%] flex flex-col gap-14 lg:gap-3">
           {TimeLine.map((ele, i) => {
             return (
@@ -138,5 +138,6 @@ const TimelineSection = () => {
     </div>
   );
 };
+
 
 export default TimelineSection;
